@@ -1,4 +1,4 @@
-# Nextclade dataset for "denv-2" based on reference "NC_001474"
+# Nextclade dataset for "denv-2" based on reference "Thailand/CDC-16681/1964"
 
 
 ## Dataset attributes
@@ -6,17 +6,15 @@
 | attribute            | value                                    |
 | -------------------- | ---------------------------------------- |
 | name                 | denv-2                                   |
-| refName              | NC_001474                                |
+| refName              | Thailand/CDC-16681/1964                  |
 | refAccession         | NC_001474.2                              |
 
 ## Scope of this Dataset
-This dataset is based on the dengue virus lineage system from [Verity et al., 2024](https://doi.org/10.1101/2024.05.16.24307504) and is suitable for the analysis of DENV-2 viral sequences. The systems are independent, so sequences from other serotypes may not be classified or may be assigned as "Outgroup."
+This dataset is based on the dengue virus lineage system from [Hill et al., 2024](https://doi.org/10.1101/2024.05.16.24307504) and is suitable for the analysis of DENV-2 viral sequences. The systems are independent, so sequences from other serotypes may not be classified or may be assigned as "Outgroup."
 
-## Authors and contacts
+## Authors
 
 Maintainers: [James Siqueira Pereira](https://github.com/jamessiqueirap) and [Alex Ranieri](https://github.com/alex-ranieri).
-The source code is avalible on [V-GEN-Lab/dengue-lineages-nextclade](https://github.com/V-GEN-Lab/dengue-lineages-nextclade)
-For bugs, please open an [Issue](https://github.com/V-GEN-Lab/dengue-lineages-nextclade/issues)
 
 ## Dengue Lineages System Project
 
@@ -24,6 +22,10 @@ This system is built off experience developing lineage systems for other viruses
 
 Broadly speaking, we define major and minor lineages within each genotype. These lineages are defined by the same rules, but use different nomenclature. In theory, minor lineages should be more useful for country-specific questions, and major lineages for regional questions. Of course, it won't always necessarily work like that - some minor lineages are very widespread, and some major lineages are geographically limited.
 
+## For Contact and bugs
+
+The source code is avalible on [V-GEN-Lab/dengue-lineages-nextclade](https://github.com/V-GEN-Lab/dengue-lineages-nextclade)
+For bugs, please open an [Issue](https://github.com/V-GEN-Lab/dengue-lineages-nextclade/issues)
 
 ## What is Nextclade dataset
 

@@ -1,16 +1,8 @@
 {
-  "alignmentParams": {
-    "penaltyGapOpen": 8,
-    "penaltyGapOpenInFrame": 12,
-    "penaltyGapOpenOutOfFrame": 14,
-    "gapAlignmentSide": "left",
-    "minSeedCover": 0.1,
-    "minLength": 1000
-  },
   "attributes": {
     "name": "DENV-3 lineages",
     "reference accession": "NC_001475.2",
-    "reference name": "NC_001475"
+    "reference name": "D3/H/IMTSSA-SRI/2000"
   },
   "compatibility": {
     "cli": "3.0.0-alpha.0",

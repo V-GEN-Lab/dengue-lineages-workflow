@@ -1,16 +1,8 @@
 {
-  "alignmentParams": {
-    "penaltyGapOpen": 8,
-    "penaltyGapOpenInFrame": 12,
-    "penaltyGapOpenOutOfFrame": 14,
-    "gapAlignmentSide": "left",
-    "minSeedCover": 0.1,
-    "minLength": 1000
-  },
   "attributes": {
     "name": "DENV-1 lineages",
     "reference accession": "NC_001477.1",
-    "reference name": "NC_001477"
+    "reference name": "Nauru/NMRI-45AZ5PDK-0/1974"
   },
   "compatibility": {
     "cli": "3.0.0-alpha.0",
