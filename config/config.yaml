@@ -2,10 +2,10 @@ denv1:
   annotation: "resources/denv1/genome_annotation.gff3"
 
 denv2:
-  annotation: "resources/denv1/genome_annotation.gff3"
+  annotation: "resources/denv2/genome_annotation.gff3"
 
 denv3:
-  annotation: "resources/denv1/genome_annotation.gff3"
+  annotation: "resources/denv3/genome_annotation.gff3"
 
 denv4:
-  annotation: "resources/denv1/genome_annotation.gff3"
+  annotation: "resources/denv4/genome_annotation.gff3"
