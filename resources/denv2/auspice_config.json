@@ -1,0 +1,73 @@
+{
+  "title": "Dengue Lineages of DENV-2",
+  "maintainers": [
+    {"name": "James Siqueira", "url": ""},
+    {"name": "Alex Ranieri", "url": ""}
+  ],
+  "data_provenance": [
+    {
+      "name": "NCBI and GISAID"
+    }
+  ],
+  "build_url": "https://github.com/V-GEN-Lab/dengue-lineages-nextclade",
+  "colorings": [
+    {
+      "key": "serotype",
+      "title": "Serotype",
+      "type": "categorical"
+    },
+    {
+      "key": "clade_membership",
+      "title": "Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "lineage_membership",
+      "title": "Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "region",
+    "country",
+    "division",
+    "location"
+  ],
+  "display_defaults": {
+  "map_triplicate": true,
+    "color_by": "country"
+  },
+  "filters": [
+    "clade_membership",
+    "lineage_membership",
+    "country",
+    "division"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}
+
