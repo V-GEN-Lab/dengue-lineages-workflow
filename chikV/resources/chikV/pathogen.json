@@ -62,7 +62,13 @@
       "windowSize": 100
     },
     "stopCodons": {
-      "enabled": true
+      "enabled": true,
+      "ignoredStopCodons": [
+        {
+          "cdsName": "nsP3",
+          "codon": 524
+        }
+      ]
     }
   },
   "schemaVersion": "3.0.0",
