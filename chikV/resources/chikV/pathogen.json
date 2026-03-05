@@ -2,25 +2,14 @@
   "attributes": {
     "name": "chikV",
     "reference accession": "NC_004162.2",
-    "reference name": "S27-African"
+    "reference name": "S27-African",
+    "experimental": true
   },
   "compatibility": {
     "cli": "3.0.0-alpha.0",
     "web": "3.0.0-alpha.0"
   },
-  "placementMaskRanges": [
-    {
-      "begin": 0,
-      "end": 77
-    },
-    {
-      "begin": 11314,
-      "end": 11826
-    }
-  ],
   "deprecated": false,
-  "enabled": true,
-  "experimental": true,
   "files": {
     "changelog": "CHANGELOG.md",
     "examples": "sequences.fasta",
